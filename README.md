@@ -2,14 +2,14 @@
 ----------------------
 ## Hosted On Firebase here: https://myways-project.web.app/
 ## Backend API hosted on heroku here: https://myways-backend-login.herokuapp.com/
-## Backend Code Repo Here: 
+## Backend Code Repo Here: https://github.com/kuvamdazeus/myways-project-backend
 ----------------------
 ### What Backend API Endpoints:
 1. GET '/login/<email-of-user>' Gives data of user from the MongoDB Database
 2. POST '/signup' Takes the data from React app and puts in MongoDB Database
 
  ### Technologies used in Backend (Dependencies):
-[A Part of 'package.json' file]
+[A Part of the 'package.json' file]
 
 ```JSON
 
@@ -22,6 +22,7 @@
 ```
 
 ### What Frontend Uses (Dependencies):
+[A part of the 'package.json' file]
 ```JSON
 
 "dependencies": {
