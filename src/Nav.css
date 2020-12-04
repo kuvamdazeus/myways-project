@@ -1,0 +1,94 @@
+.nav {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 70px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #0000000F;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_mw_logo {
+    /* top: 2px;
+    left: 98px; */
+    margin-left: 98px;
+    width: 66px;
+    height: 66px;
+    background: transparent url('./assets/MyWays.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.nav_options {
+    display: flex;
+    margin-right: 99px;
+}
+
+.nav_text {
+    font-size: 16/22px;
+    margin-right: 46px;
+    font-weight: 350;
+}
+
+.nav_dropdown_logo {
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+.nav_instant_logo {
+    margin-top: 10px;
+    width: 32px;
+    height: 32px;
+}
+
+.nav_text_signup {
+    color: #7ECB20;
+    font-weight: 600;
+}
+
+.login_text {
+    vertical-align: middle;
+}
+
+.foryou {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+.nav_login_button {
+    vertical-align: middle;
+    border: none;
+    background: #7ECB20 0% 0% no-repeat padding-box;
+    width: 134px;
+    height: 28px;
+    text-align: center;
+    border-radius: 19px;
+    margin-top: 3px;
+    transition: all.2s ease-in-out;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.nav_login_button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.nav_login_button:click {
+    border: none;
+}
+
+.nav_text_login {
+    letter-spacing: 0.48px;
+    margin: 8px;
+    margin-top: 10px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16/22px;
+    font: normal normal 600 16px/22px;
+}

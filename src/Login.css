@@ -1,0 +1,87 @@
+.login {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    animation: fadeInAnimation ease .3s;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards;
+}
+
+.black_background {
+    width: 100%;
+    background-color: #2120207c;
+}
+
+.login_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+
+.login_dialog {
+    background-color: white;
+    height: 100vh;
+    width: 633px;
+}
+
+.login_heading {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.login_close {
+    font-size: 28px;
+    text-decoration: none;
+    color: #707070;
+}
+
+.occup {
+    font-size: 20px;
+    font-weight: 600;
+    color: #7ECB20;
+}
+
+.occup_hr {
+    border: 1px solid #7ECB20;
+    width: 200px;
+    margin-bottom: 36px;
+}
+
+.forgot {
+    width: 100%;
+    text-align: right;
+}
+
+.forgot_text {
+    color: #7ECB20;
+    margin-right: 11px;
+}
+
+.login_button {
+    width: 360px;
+    height: 50px;
+    background: #7ECB20 0% 0% no-repeat padding-box;
+    border: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    transition: 500ms background-color;
+    border-radius: 6px;
+}
+
+.login_button:hover {
+    cursor: pointer;
+    background-color: #9eff28;
+}
+
+.login_form {
+    margin: 30px;
+    text-align: center;
+}
+
+.login_input {
+    width: 336px;
+    height: 28px;
+    margin-bottom: 10px;
+}
